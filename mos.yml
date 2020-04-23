@@ -1,0 +1,20 @@
+author: Marcelo Buregio <marceloburegio@gmail.com>
+description: MQ135 gas sensor support
+type: lib
+version: 1.0
+
+sources:
+  - src
+includes:
+  - include
+libs:
+  - origin: https://github.com/mongoose-os-libs/adc
+tags:
+  - c
+  - js
+  - mq135
+  - sensor
+  - hw
+  - docs:drivers:mq135
+
+manifest_version: 2017-09-29
